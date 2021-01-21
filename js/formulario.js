@@ -40,13 +40,13 @@
                     })  
                     return false;
               } 
-              if(ad.val()){
+              if(ad==""){
                 $("#address").select();
                   Swal.fire({
                       icon: 'error',
                       title: 'Elija una ciudad',
                     }) 
-                    return true;
+                    return false;
               }  
               Swal.fire({
                   icon: 'success',
