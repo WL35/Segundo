@@ -1,0 +1,26 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    background:#2e8ca1;   
+    border-bottom: solid  black 1px;
+    border-right: solid black 1px;
+    
+    width:55%;
+
+
+}
+.menus:hover{
+    width: 60%;
+}
+#publicidad{
+    text-align:center;
+}
+#text_p{
+    text-align: justify;
+
+}
+#img_p{
+    
+    width:250px ;
+}
